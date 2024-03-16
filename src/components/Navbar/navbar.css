@@ -19,7 +19,6 @@
     object-fit: cover;
     height: 5rem;
     width: 5rem;
-    overflow-x: hidden;
 }
 
 .desktopMenuListItem{

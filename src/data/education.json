@@ -1,0 +1,40 @@
+[
+    {
+      "school": "University of Wollongong",
+      "schoolImg": "work/lagoon.png",
+      "study": "Bachelor in Computer Science(Big Data)",
+      "grades": "Weighted Average Mark (WAM): 77",
+      "date": "2023 - Ongoing",
+      "extraHeader": "Semester Exchange",
+      "extraInfo1": "Wollongong Australia",
+      "extraInfo2": "Autum Session 2023"
+    },
+    {
+      "school": "Temasek Polytechnic",
+      "schoolImg": "work/lagoon.png",
+      "study": "Diploma in Produt & Industrial Design",
+      "grades": "",
+      "date": "2015 - 2018",
+      "extraHeader": "",
+      "extraInfo1": "",
+      "extraInfo2": ""
+    },{
+      "school": "St Gabriel Secondary School",
+      "schoolImg": "work/lagoon.png",
+      "study": "",
+      "grades": "",
+      "date": "2011-2014",
+      "extraHeader": "",
+      "extraInfo1": "",
+      "extraInfo2": ""
+    },{
+      "school": "Kheng Cheng Primary School",
+      "schoolImg": "work/lagoon.png",
+      "study": "",
+      "grades": "",
+      "date": "2005-2010",
+      "extraHeader": "",
+      "extraInfo1": "",
+      "extraInfo2": ""
+    }
+  ]

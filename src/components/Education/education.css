@@ -43,6 +43,13 @@
     display: flex;
     flex-direction: column;
     text-align: left;
+    background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
+    border: 2px solid #846D62; /* A colored border to signify the timeline and add a pop of color */
+    border-radius: 6px; /* Smooth out the corners for a softer look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    overflow: hidden; /* Ensures nothing spills out */
+    margin-bottom: 10px;
 }
 
   
@@ -65,14 +72,49 @@
     text-align: initial;
 }
 
+.vertical-timeline-element--education h3,
+.vertical-timeline-element--education h4,
+.vertical-timeline-element--education p {
+    font-family: 'Nunito', sans-serif; /* A modern, rounded font that's very readable */
+    color: #333;
+    line-height: 1.5; /* More readable line height */
+}
+
 .vertical-timeline-element--education h3 {
-    margin-top: 0; /* Remove top margin for better alignment */
-    font-size: 1.25rem; /* Adjust font size as needed */
+    font-size: 1.5rem;
+    font-weight: 700; /* More emphasis on the job title/company name */
+    margin-bottom: 0.5rem; /* Space between the company name and the job title */
 }
 
 .vertical-timeline-element--education h4 {
-    margin-bottom: 10px; /* Add some space below the subtitle */
+    font-size: 1.2rem;
+    font-weight: 400; /* Less emphasis on the job title */
+    color: #846D62; /* Use the accent color to make the job title stand out */
+    margin-bottom: 1rem; /* More space above the job description */
+}
+
+.vertical-timeline-element--education p {
     font-size: 1rem;
+    margin-bottom: 0.75rem; /* Consistent spacing between paragraphs */
+}
+
+
+.extraBox {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+    background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
+    border: 2px solid #846D62; /* A colored border to signify the timeline and add a pop of color */
+    border-radius: 6px; /* Smooth out the corners for a softer look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    overflow: hidden; /* Ensures nothing spills out */
+}
+.extraHeader{
+    margin-top: 0; /* Remove top margin for better alignment */
+    font-size: 1.25rem; /* Adjust font size as needed */
+    
 }
 
 
