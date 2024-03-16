@@ -1,0 +1,127 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "Frontend"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Database"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Design"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png",
+    "category": "Backend"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png",
+    "category": "Backend"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png",
+    "category": "Backend"
+  },
+  {
+    "title": "R",
+    "imageSrc": "skills/r.png",
+    "category": "Data Analysis"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png",
+    "category": "Database"
+  },
+  {
+    "title": "HQL",
+    "imageSrc": "skills/hql.png",
+    "category": "Big Data"
+  },
+  {
+    "title": "Pig Latin",
+    "imageSrc": "skills/pig.png",
+    "category": "Big Data"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.png",
+    "category": "Programming Languages"
+  },
+  {
+    "title": "HBase",
+    "imageSrc": "skills/hbase.png",
+    "category": "Big Data"
+  },
+  {
+    "title": "SPARK",
+    "imageSrc": "skills/spark.png",
+    "category": "Big Data"
+  },
+  {
+    "title": "TensorFlow",
+    "imageSrc": "skills/tensorflow.png",
+    "category": "Machine Learning"
+  },
+  {
+    "title": "Scikit-learn",
+    "imageSrc": "skills/scikit.png",
+    "category": "Machine Learning"
+  },
+  {
+    "title": "Keras",
+    "imageSrc": "skills/keras.png",
+    "category": "Machine Learning"
+  },
+  {
+    "title": "Rhino 3D",
+    "imageSrc": "skills/rhino.png",
+    "category": "Others"
+  },
+  {
+    "title": "Grasshopper",
+    "imageSrc": "skills/Grasshopper.png",
+    "category": "Others"
+  },
+  {
+    "title": "Adobe Illustrator",
+    "imageSrc": "skills/illustrator.png",
+    "category": "Others"
+  },
+  {
+    "title": "Adobe Photoshop",
+    "imageSrc": "skills/photoshop.png",
+    "category": "Others"
+  },
+  {
+    "title": "Premiere Pro",
+    "imageSrc": "skills/premierepro.png",
+    "category": "Others"
+  },
+  {
+    "title": "Keyshot",
+    "imageSrc": "skills/keyshot.png",
+    "category": "Others"
+  },
+  {
+    "title": "3ds Max",
+    "imageSrc": "skills/3dsmax.png",
+    "category": "Others"
+  }
+]

@@ -1,0 +1,158 @@
+#works {
+    margin: 0 auto;
+    min-height:calc(100vh - 4rem);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.worksTitle {
+    margin: 1rem 0;
+    font-size: 3rem;
+    max-width: 45rem;
+}
+
+.worksDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-content {
+    background: #f9f9f9; /* Light background for the content */
+    color: #333; /* Dark text for contrast */
+    padding: 25px 25px 0 25px; /* Comfortable padding around the content */
+    border-radius: 4px; /* Rounded corners for a modern look */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+.vertical-timeline-element--work .vertical-timeline-element-content::before {
+    border-right: 7px solid #f0f0f0; /* Match the arrow to the box's background */
+}
+
+.timelineBox{
+    display: flex; /* This will make it a flex container */
+    align-items: center; /* Aligns children vertically in the center */
+    justify-content: space-between; /* Adds space between the children */
+}
+.timelineImage {
+    height: auto; /* Adjust as needed */
+    width: 50%; /* Takes up half the width of its parent */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+/* Styles for the information box to the right */
+.infoBox {
+    width: 50%; /* Takes up the remaining half */
+    padding: 20px; /* Adds padding inside the info box */
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    background: white; /* Replace with your desired background color */
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: black;
+    border: 2px solid #846d62;
+  }
+
+/* Button container */
+.buttonBox {
+    display: flex;
+    justify-content: space-around; /* Space the buttons evenly */
+    padding-top: 20px;
+    width: 100%; /* Take the full width of its parent to align the buttons */
+    justify-content: left;
+}
+
+.vertical-timeline-element--work a {
+    background-color: #846d62;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 5px 20px;
+    margin-left: 0px;
+}
+
+.vertical-timeline-element--work a:hover {
+    background-color: #333;
+}
+  
+.vertical-timeline-element--work .vertical-timeline-element-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    height: 4rem;
+    width: 4rem;
+    right: unset;
+    left: -13px;
+}
+
+
+.vertical-timeline-element--work .vertical-timeline-element-icon img {
+    width: 2.5rem; /* Use auto to maintain the aspect ratio */
+    height: 2.5rem;
+    object-fit: contain; /* Set height to 100% of the parent container */
+}
+
+.vertical-timeline-element--work .vertical-timeline-element-date {
+    color: #333; /* Or any other color that fits the design */
+    font-size: 1rem;
+    align-self: start;
+}
+
+.vertical-timeline-element--work h3 {
+    margin-top: 0; /* Remove top margin for better alignment */
+    font-size: 1.25rem; /* Adjust font size as needed */
+}
+
+.vertical-timeline-element--work h4 {
+    margin-bottom: 10px; /* Add some space below the subtitle */
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width:650px){
+
+    .timelineBox{
+        flex-direction: column;
+    }
+
+    .infoBox{
+        width: 100%;
+    }
+
+    .timelineImage{
+        width: 50vw;
+    }
+
+    .buttonBox>a{
+        max-width: 100px;
+        font-size: 0.8rem;
+    }
+}
