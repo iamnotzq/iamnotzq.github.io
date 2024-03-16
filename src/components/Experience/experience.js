@@ -18,7 +18,7 @@ const Experience = () => {
               contentClassName="custom-content"
               contentArrowClassName="custom-content-arrow"
               iconClassName="custom-icon"
-              date="2011 - present" // Replace with your project date
+              date={project.date} // Replace with your project date
               icon={<img src={getImageUrl(project.companyImg)}/>}
             >
              
