@@ -9,6 +9,7 @@ const Education = () => {
   return (
     <section id = 'education'>
         <h2 className='educationTitle'>My Education</h2>
+        <h2 className='educationTitle'>My Education</h2>
         <span className='educationDesc'>This is my portfolio and my works details</span>
         <VerticalTimeline lineColor='#846d62'>
           {projects.map((project, index) => (
