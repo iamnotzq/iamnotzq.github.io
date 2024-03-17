@@ -41,7 +41,22 @@
     display: flex; /* This will make it a flex container */
     align-items: center; /* Aligns children vertically in the center */
     justify-content: space-between; /* Adds space between the children */
+    background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
+    border: 2px solid #846D62; /* A colored border to signify the timeline and add a pop of color */
+    border-radius: 6px; /* Smooth out the corners for a softer look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    overflow: hidden; /* Ensures nothing spills out */
+    margin-bottom: 10px;
+    padding: 20px; /* Adds padding inside the info box */
 }
+
+.timelineBox:hover{
+    border-left-color: #846D62; /* Slightly lighter shade for hover */
+    transform: translateY(-5px); /* Move up slightly */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
+}
+
 .timelineImage {
     height: auto; /* Adjust as needed */
     width: 50%; /* Takes up half the width of its parent */

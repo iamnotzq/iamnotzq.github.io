@@ -52,6 +52,11 @@
     margin-bottom: 10px;
 }
 
+.educationBox:hover{
+    border-left-color: #846D62; /* Slightly lighter shade for hover */
+    transform: translateY(-5px); /* Move up slightly */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
+}
   
 .vertical-timeline-element--education .vertical-timeline-element-icon {
     display: flex;
@@ -90,12 +95,11 @@
     font-size: 1.2rem;
     font-weight: 400; /* Less emphasis on the job title */
     color: #846D62; /* Use the accent color to make the job title stand out */
-    margin-bottom: 1rem; /* More space above the job description */
+    margin-bottom: 0.5rem; /* More space above the job description */
 }
 
 .vertical-timeline-element--education p {
     font-size: 1rem;
-    margin-bottom: 0.75rem; /* Consistent spacing between paragraphs */
 }
 
 
@@ -115,6 +119,12 @@
     margin-top: 0; /* Remove top margin for better alignment */
     font-size: 1.25rem; /* Adjust font size as needed */
     
+}
+
+.extraBox:hover{
+    border-left-color: #846D62; /* Slightly lighter shade for hover */
+    transform: translateY(-5px); /* Move up slightly */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
 }
 
 
