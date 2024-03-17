@@ -1,0 +1,14 @@
+.sectionsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+@media (max-width: 850px) {
+    .sectionsContainer {
+        flex-direction: column;
+    }
+}

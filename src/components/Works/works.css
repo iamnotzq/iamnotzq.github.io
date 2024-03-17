@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding: 1rem;
 }
 
 .worksTitle {
@@ -57,7 +57,6 @@
   }
 
 .timelineBox:hover{
-    border-left-color: #846D62; /* Slightly lighter shade for hover */
     transform: translateY(-5px); /* Move up slightly */
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
 }
@@ -169,22 +168,32 @@
 }
 
 
-@media screen and (max-width:650px){
-
-    .timelineBox{
+@media screen and (max-width:650px) {
+    .timelineBox {
         flex-direction: column;
     }
 
-    .infoBox{
-        width: 100%;
+    .imageContainer {
+        width: 100%; /* Ensure image container takes full width */
+        max-width: 100%;
     }
 
-    .timelineImage{
-        width: 50vw;
+    .each-slide-effect {
+        width: 100%; /* Ensure slide effect container takes full width */
     }
 
-    .buttonBox>a{
-        max-width: 100px;
-        font-size: 0.8rem;
+    .timelineImage, .each-slide-effect img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: contain; /* Adjust based on how you want images to fit within the container */
+    }
+
+    .infoBox {
+        width: 100%; /* Ensure info box takes full width for consistency */
+        padding: 20px 0; /* Adjust padding to fit the design */
+    }
+
+    .buttonBox > a {
+        font-size: 0.8rem; /* Adjust button font size as needed */
     }
 }

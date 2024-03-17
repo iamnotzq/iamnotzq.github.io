@@ -21,20 +21,7 @@ const Contact = () => {
           });
       };
   return (
-    <section id='contactPage'>
-        <div id='clients'>
-            <h1 className='contactPageTitle'>My Clients</h1>
-            <p className='clientDesc'>
-                my clients work with me bla bla
-            </p>
-            <div className='clientImgs'>
-                <img src={Walmart} alt='Client' className='clientImg'/>
-                <img src={Adobe} alt='Client' className='clientImg'/>
-                <img src={Microsoft} alt='Client' className='clientImg'/>
-                <img src={Facebook} alt='Client' className='clientImg'/>
-            </div>
-        </div>
-        <div id='contact'>
+    <section id='contact'>
             <h1 className='contactPageTitle'>Contact Me</h1>
             <span className='contactDesc'>Please fill out the form</span>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
@@ -49,7 +36,6 @@ const Contact = () => {
                     <img src={Facebook} alt='Facebook' className='link'/>
                 </div>
             </form>
-        </div>
     </section>
   )
 }

@@ -10,7 +10,7 @@ const Education = () => {
     <section id = 'education'>
         <h2 className='educationTitle'>My Education</h2>
         <span className='educationDesc'>This is my portfolio and my works details</span>
-        <VerticalTimeline lineColor='#846d62'>
+        <VerticalTimeline layout='1-column-left' lineColor='#846d62'>
           {educations.map((education, index) => (
             <VerticalTimelineElement
               key={index}
@@ -22,7 +22,7 @@ const Education = () => {
               icon={<img src={getImageUrl(education.schoolImg)}/>}
             >
              
-              
+              <div className='educationContainer'>
               <div className='educationBox'>
               <h3 className="vertical-timeline-element-title">{education.school}</h3>
               <h4 className="vertical-timeline-element-subtitle">{education.study}</h4>
@@ -33,6 +33,7 @@ const Education = () => {
                 {education.extraInfo1 && <p className='extraInfo1'>{education.extraInfo1}</p>}
                 {education.extraInfo2 && <p className='extraInfo2'>{education.extraInfo2}</p>}
               </div>}
+              </div>
             </VerticalTimelineElement>
           ))}
         </VerticalTimeline>

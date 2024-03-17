@@ -52,7 +52,7 @@
     margin: 1rem;
 }
 
-.active{
+.desktopMenu .active{
     color: #FDF7F2;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #FDF7F2;
@@ -102,7 +102,7 @@
     color: #846d62; /* Complementary color to navbar background */
 }
 
-@media screen and (max-width:720px) {
+@media screen and (max-width:750px) {
     .mobMenu {
         display: block; /* Show the mobile menu icon */
     }
@@ -116,5 +116,10 @@
         right: 0.5rem;
         left: 0.5rem;
         width: calc(100% - 1rem);
+    }
+    .desktopMenu .active{
+        color: #846d62;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid #846d62;
     }
 }

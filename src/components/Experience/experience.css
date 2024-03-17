@@ -1,5 +1,5 @@
 #experience {
-    margin: 0 auto;
+    margin: 1rem auto;
     min-height:calc(100vh - 4rem);
     width: 100vw;
     display: flex;
@@ -7,7 +7,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding: 20px;
+    max-width: 50%;
+    min-width: 50%;
+    flex: 1;
 }
 
 .experienceTitle {
@@ -40,13 +43,17 @@
 .experienceBox {
     padding: 25px;
     background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
-    border-left: 4px solid #846D62; /* A colored border to signify the timeline and add a pop of color */
+    border: 2px solid #846D62; /* A colored border to signify the timeline and add a pop of color */
     border-radius: 6px; /* Smooth out the corners for a softer look */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     overflow: hidden; /* Ensures nothing spills out */
 }
 
+.vertical-timeline-element--experience .vertical-timeline-element-date {
+    color: #333; /* Or any other color that fits the design */
+    font-size: 1rem;
+}
 .vertical-timeline-element--experience h3,
 .vertical-timeline-element--experience h4,
 .vertical-timeline-element--experience p {
@@ -86,7 +93,7 @@
 }
 
 .vertical-timeline-element--experience:hover .experienceBox {
-    border-left-color: #846D62; /* Slightly lighter shade for hover */
+    border: 2px solid #846D62; /* Slightly lighter shade for hover */
     transform: translateY(-5px); /* Move up slightly */
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
 }
@@ -105,10 +112,17 @@
 
 
 
-@media screen and (max-width:585px){
-
+@media screen and (max-width:850px){
+    #experience{
+        min-width: 100%; /* Each section takes the full width of the container */
+        max-width: 100%; /* Adjusts for a vertical layout */
+    }
     .experienceBox {
-        width: calc(100% - 50px); /* Ensure some margin on small screens */
-        padding: 20px; /* Slightly reduce padding on small screens for more space */
+        padding: 10px; /* Slightly reduce padding on small screens for more space */
+    }
+
+    .vertical-timeline-element--experience .vertical-timeline-element-content{
+        padding: 15px;
+        padding-bottom: 0;
     }
 }

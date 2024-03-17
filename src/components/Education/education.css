@@ -1,5 +1,5 @@
 #education {
-    margin: 0 auto;
+    margin: 1rem auto;
     min-height:calc(100vh - 4rem);
     width: 100vw;
     display: flex;
@@ -7,7 +7,11 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 0 1rem;
+    padding: 20px;
+    flex: 1;
+    min-width: 50%;
+    max-width: 50%;
+    text-align: center;
 }
 
 .educationTitle {
@@ -37,6 +41,13 @@
     border-right: 7px solid #f0f0f0; /* Match the arrow to the box's background */
 }
 
+.educationContainer{
+    padding: 25px;
+    background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
+    border-radius: 6px; /* Smooth out the corners for a softer look */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
+    overflow: hidden; /* Ensures nothing spills out */
+}
 /* Styles for the information box to the right */
 .educationBox {
     padding: 20px; /* Adds padding inside the info box */
@@ -53,7 +64,6 @@
 }
 
 .educationBox:hover{
-    border-left-color: #846D62; /* Slightly lighter shade for hover */
     transform: translateY(-5px); /* Move up slightly */
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
 }
@@ -64,6 +74,10 @@
     justify-content: center;
     border-radius: 50%;
     background-color: white;
+    right: unset;
+    left: -13px;
+    height: 4rem;
+    width: 4rem;
 }
 .vertical-timeline-element--education .vertical-timeline-element-icon img {
     width: 2.5rem; /* Use auto to maintain the aspect ratio */
@@ -73,8 +87,6 @@
 .vertical-timeline-element--education .vertical-timeline-element-date {
     color: #333; /* Or any other color that fits the design */
     font-size: 1rem;
-    align-self: end;
-    text-align: initial;
 }
 
 .vertical-timeline-element--education h3,
@@ -128,8 +140,20 @@
 }
 
 
-@media screen and (max-width:585px){
+@media screen and (max-width:850px){
+    #education{
+        min-width: 100%; /* Each section takes the full width of the container */
+        max-width: 100%; /* Adjusts for a vertical layout */
+    }
 
+    .vertical-timeline-element--education .vertical-timeline-element-content{
+        padding-bottom: 0;
+    }
+
+    .educationContainer{
+        padding: 0.5px;
+        padding-bottom: 0;
+    }
     .experienceBox{
         width: 100%;
     }

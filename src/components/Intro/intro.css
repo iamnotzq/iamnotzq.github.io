@@ -7,7 +7,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-height: 90vh; /* This will make your intro section at least the height of the viewport */
+    min-height: 80vh; /* This will make your intro section at least the height of the viewport */
     padding: 20px;
     max-width: 1350px;
     margin: auto; 
@@ -124,7 +124,7 @@
     }
     .btn{
         padding: 1vw 2.5vw;
-        font-size: 3vw;
+        font-size: 2vw;
         
     }
     .btnImg{

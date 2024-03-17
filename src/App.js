@@ -2,8 +2,7 @@ import Navbar from "./components/Navbar/navbar";
 import Intro from "./components/Intro/intro";
 import Skills from "./components/Skills/skills";
 import Works from "./components/Works/works";
-import Experience from "./components/Experience/experience";
-import Education from "./components/Education/education";
+import EducationExperienceContainer from "./components/Edu&Exp/EducationExperienceContainer";
 import Contact from "./components/Contact/contact";
 import Footer from "./components/Footer/footer";
 
@@ -15,8 +14,7 @@ function App() {
       <Intro/>
       <Skills/>
       <Works/>
-      <Experience/>
-      <Education/>
+      <EducationExperienceContainer/>
       <Contact/>
       <Footer/>
     </div>
