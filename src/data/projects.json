@@ -1,7 +1,7 @@
 [
     {
       "title": "Project A",
-      "imageSrc": "projects/portfolio-1.png",
+      "imageSrc": ["projects/portfolio-1.png","projects/portfolio-3.png", "projects/portfolio-4.png"],
       "skillImg": "skills/react.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
@@ -11,7 +11,7 @@
     },
     {
       "title": "Project B",
-      "imageSrc": "projects/portfolio-2.png",
+      "imageSrc": ["projects/portfolio-2.png","projects/portfolio-5.png", "projects/portfolio-3.png"],
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
@@ -19,23 +19,7 @@
       "date": "2018"
     },{
       "title": "Project C",
-      "imageSrc": "projects/portfolio-3.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "date": "2018"
-    },{
-      "title": "Project D",
-      "imageSrc": "projects/portfolio-4.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "date": "2018"
-    },{
-      "title": "Project E",
-      "imageSrc": "projects/portfolio-5.png",
+      "imageSrc": ["projects/portfolio-1.png","projects/portfolio-5.png", "projects/portfolio-2.png"],
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",

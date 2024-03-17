@@ -51,16 +51,32 @@
     padding: 20px; /* Adds padding inside the info box */
 }
 
+.vertical-timeline-element--work .each-slide-effect{
+    width: 100%; /* You may adjust this as needed */
+    position: relative;
+  }
+
 .timelineBox:hover{
     border-left-color: #846D62; /* Slightly lighter shade for hover */
     transform: translateY(-5px); /* Move up slightly */
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Increased shadow for hover */
 }
 
+.imageContainer{
+    flex: 1 1 50%; /* This will allow the slide show to take up half the width */
+    max-width: 50%; /* Assign a maximum width to match the design */
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
 .timelineImage {
-    height: auto; /* Adjust as needed */
-    width: 50%; /* Takes up half the width of its parent */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
+    max-width: 100%;
+    max-height: 400px; /* Or any other max-height you prefer */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Keeps the image within bounds without cropping */
+    margin: 0 auto; /* Center the image horizontally if it's not filling its container */
+    display: block; /* Treat the image as a block-level element, enabling margin auto */
 }
 
 /* Styles for the information box to the right */

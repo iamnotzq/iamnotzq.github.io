@@ -20,16 +20,14 @@ const Intro = () => {
       </div>
       <div className='slide-container'>
       <Slide>
-        {projects.map((project, id) => {
-          return(
-            <div key={id} className='each-slide-effect'>
-              <div className='image-container'>
-               <img src={getImageUrl(project.imageSrc)} alt={project.title} className='project-image'/>
-            </div>
-            </div>
-          );
-        })}
-      </Slide>
+  {projects.flatMap((project) => 
+    project.imageSrc.map((src, index) => (
+      <div key={`${project.title}-${index}`} className='each-slide-effect'>
+        <img src={getImageUrl(src)} alt={`${project.title} ${index + 1}`} className='project-image' />
+      </div>
+    ))
+  )}
+</Slide>
       </div>
         
     </section>

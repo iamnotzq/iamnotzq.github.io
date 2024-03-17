@@ -4,6 +4,8 @@ import projects from "../../data/projects.json";
 import { getImageUrl } from "../../utils";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import '../../../node_modules/react-slideshow-image/dist/styles.css';
+import { Slide } from 'react-slideshow-image';
 
 const Works = () => {
   return (
@@ -19,10 +21,22 @@ const Works = () => {
               contentArrowClassName="custom-content-arrow"
               iconClassName="custom-icon"
               date={project.date} // Replace with your project date
-              icon={<img src={getImageUrl(project.skillImg)}/>}
+              icon={<img src={getImageUrl(project.skillImg)} alt={`${project.title} skill`} />}
             >
               <div className='timelineBox'>
-                <img  className='timelineImage' src={getImageUrl(project.imageSrc)} alt={project.title}/>
+                <div className='imageContainer'>
+                <Slide>
+                  {project.imageSrc.map((src, imgIndex) => {
+                    return(
+                      <div key={imgIndex} className='each-slide-effect'>
+                        <div className='timelineImage'>
+                      <img src={getImageUrl(src)} alt={`${project.title} slide ${imgIndex + 1}`} className='timelineImage' />
+                      </div>
+                    </div>
+                    );
+                  })}
+                </Slide>
+                </div>
                   <div className='infoBox'>
                     <div className="skillsContainer">
                       {project.skills.map((skill, skillIndex) => (
