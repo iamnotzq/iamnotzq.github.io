@@ -5,9 +5,10 @@ import {Link} from 'react-scroll';
 import '../../../node_modules/react-slideshow-image/dist/styles.css';
 import { Slide } from 'react-slideshow-image';
 import projects from "../../data/projects.json";
-import { getImageUrl } from "../../utils";
+import { getImageUrl, shuffleArray } from "../../utils";
 
 const Intro = () => {
+  const shuffledImages = shuffleArray(projects.flatMap(project => project.imageSrc));
   return (
     <section id="intro">
       <div className='introbox'>
@@ -20,14 +21,12 @@ const Intro = () => {
       </div>
       <div className='slide-container'>
       <Slide>
-  {projects.flatMap((project) => 
-    project.imageSrc.map((src, index) => (
-      <div key={`${project.title}-${index}`} className='each-slide-effect'>
-        <img src={getImageUrl(src)} alt={`${project.title} ${index + 1}`} className='project-image' />
-      </div>
-    ))
-  )}
-</Slide>
+          {shuffledImages.map((src, index) => (
+                <div key={index} className='each-slide-effect'>
+                  <img src={getImageUrl(src)} alt={`Slide ${index + 1}`} className='project-image' />
+                </div>
+              ))}
+      </Slide>
       </div>
         
     </section>

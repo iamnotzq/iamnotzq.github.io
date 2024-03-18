@@ -8,17 +8,18 @@
       "skills": ["React", "Expo", "MongoDB", "GraphQL", "Figma"],
       "document": "projects/nutriwise/documentation.pdf",
       "source": "https://github.com/iamnotzq/Blood-Glucose-Mobile-Application/tree/main",
-      "date": "2018"
+      "date": "2024"
     },
     {
-      "title": "Project B",
-      "imageSrc": ["projects/portfolio-2.png","projects/portfolio-5.png", "projects/portfolio-3.png"],
-      "subTitle": "",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "document": "https://www.example.com",
+      "title": "Insurance Advertising",
+      "imageSrc": ["projects/cwadvertising/cw1.png","projects/cwadvertising/cw2.png"],
+      "skillImg": "skills/canva.png",
+      "subTitle": "AIA platinum wealth venture advertising for client",
+      "description": "This is a small project done for a client. I was tasked to do up advertising and poster materials for a limited time promotion.",
+      "skills": ["Advertising"],
+      "document": "",
       "source": "",
-      "date": "2018"
+      "date": "2024"
     },{
       "title": "Project C",
       "imageSrc": ["projects/portfolio-1.png","projects/portfolio-5.png", "projects/portfolio-2.png"],

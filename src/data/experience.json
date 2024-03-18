@@ -3,26 +3,26 @@
       "company": "Lagoon Laundry",
       "companyImg": "work/lagoon.png",
       "title": "Part Time",
-      "description": "Customer Service",
+      "description": "Handling of customer's drop off and pick up of laundry. Entrusted to hold the keys to the shop and manage the shop alone. Developing a POS system for the shop along with collegues.",
       "date": "2023 - Ongoing"
     },
     {
         "company": "FOSSIL",
         "companyImg": "work/fossil.png",
         "title": "Part Time",
-        "description": "Retail Assistant",
+        "description": "Retail staff at multiple FOSSIL outlets. Trusted to use their POS system and manage cash. Was relied on as if i was a full timer.",
         "date": "2021 - 2023"
       },{
         "company": "Philips",
         "companyImg": "work/philips.png",
         "title": "Part Time",
-        "description": "Customer Service",
+        "description": "Issuing of gift vouchers at Phillips Redemption Counter. Tasked to manage customers in a polite and friendly manner. Trusted to handle cash vouchers and data entry",
         "date": "2020 - 2021"
       },{
         "company": "Aural Aid",
         "companyImg": "work/auralaid.png",
         "title": "Internship",
-        "description": "Entrusted to redesign the company website. Created product manuals and build products for clients. Tasked to embark on a new project and had to learn ‘Grasshopper’ from scratch",
+        "description": "Entrusted to redesign the company website. Created product manuals and built products for clients. Tasked to embark on a new design project and had to learn ‘Grasshopper’ from scratch",
         "date": "2018"
       }
   ]

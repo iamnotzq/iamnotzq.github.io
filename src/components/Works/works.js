@@ -49,8 +49,8 @@ const Works = () => {
                       {project.description}
                     </p>
                     <div className='buttonBox'>
-                    <a href={getImageUrl(project.document)} target="_blank" rel="noopener noreferrer">Documentation</a>
-                    <a href={project.source} target="_blank" rel="noopener noreferrer">Source Code</a>
+                    {project.document && <a href={getImageUrl(project.document)} target="_blank" rel="noopener noreferrer">Documentation</a>}
+                    {project.source && <a href={project.source} target="_blank" rel="noopener noreferrer">Source Code</a>}
                   </div>
                 </div>
               </div>
