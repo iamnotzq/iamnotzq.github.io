@@ -44,12 +44,12 @@ const Works = () => {
                       ))}
                     </div>
                     <h3 className="vertical-timeline-element-title">{project.title}</h3>
-                    <h4 className="vertical-timeline-element-subtitle">{project.description}</h4>
+                    <h4 className="vertical-timeline-element-subtitle">{project.subTitle}</h4>
                     <p>
                       {project.description}
                     </p>
                     <div className='buttonBox'>
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Demo</a>
+                    <a href={getImageUrl(project.document)} target="_blank" rel="noopener noreferrer">Documentation</a>
                     <a href={project.source} target="_blank" rel="noopener noreferrer">Source Code</a>
                   </div>
                 </div>
