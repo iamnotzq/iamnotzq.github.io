@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 20px 4vw 20px 25px;
     max-width: 50%;
     min-width: 50%;
     flex: 1;
@@ -112,10 +112,11 @@
 
 
 
-@media screen and (max-width:850px){
+@media screen and (max-width:900px){
     #experience{
         min-width: 100%; /* Each section takes the full width of the container */
         max-width: 100%; /* Adjusts for a vertical layout */
+        padding: 1rem;
     }
     .experienceBox {
         padding: 10px; /* Slightly reduce padding on small screens for more space */

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 20px 25px 20px 3vw;
     flex: 1;
     min-width: 50%;
     max-width: 50%;
@@ -29,7 +29,7 @@
 .vertical-timeline-element--education .vertical-timeline-element-content{
     background: #f9f9f9; /* Light background for the content */
     color: #333; /* Dark text for contrast */
-    padding: 15px; /* Comfortable padding around the content */
+    padding: 15px 15px 0 15px; /* Comfortable padding around the content */
     border-radius: 4px; /* Rounded corners for a modern look */
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     display: flex;
@@ -42,7 +42,7 @@
 }
 
 .educationContainer{
-    padding: 25px;
+    padding: 10px;
     background: #ffffff; /* Consider a soft gradient or a very light grey to add depth */
     border-radius: 6px; /* Smooth out the corners for a softer look */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
@@ -60,7 +60,6 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     overflow: hidden; /* Ensures nothing spills out */
-    margin-bottom: 10px;
 }
 
 .educationBox:hover{
@@ -126,6 +125,7 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); /* A subtle shadow for a 'floating' effect */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
     overflow: hidden; /* Ensures nothing spills out */
+    margin-top: 10px;
 }
 .extraHeader{
     margin-top: 0; /* Remove top margin for better alignment */
@@ -140,10 +140,11 @@
 }
 
 
-@media screen and (max-width:850px){
+@media screen and (max-width:900px){
     #education{
         min-width: 100%; /* Each section takes the full width of the container */
         max-width: 100%; /* Adjusts for a vertical layout */
+        padding: 1rem;
     }
 
     .vertical-timeline-element--education .vertical-timeline-element-content{

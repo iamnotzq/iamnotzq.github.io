@@ -31,6 +31,7 @@
     justify-content: center;
     align-items: flex-start; /* Aligns items at the start of the cross axis */
     width: 100%;
+    padding: 1rem;
 }
 
 
@@ -56,7 +57,7 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     width: 100%;
 }
