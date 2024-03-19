@@ -27,7 +27,7 @@
 .skillCategoryWrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 37px;
+    gap: 10px;
     justify-content: center;
     align-items: flex-start; /* Aligns items at the start of the cross axis */
     width: 100%;
@@ -36,10 +36,10 @@
 
 
 .skillCategory{
-    margin: 25px 10px; /* Adjust based on your design needs */
+    margin: 10px 10px; /* Adjust based on your design needs */
     border: 2px solid #846d62; /* Adds a solid border with the color of your choice */
     border-radius: 8px; /* Gives the border rounded corners */
-    padding: 10px; /* Adds some spacing inside the border */
+    padding: 5px; /* Adds some spacing inside the border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow for depth */
     display: flex;
     flex-direction: column;
@@ -49,13 +49,14 @@
 
 .skillCategory>h2{
     color: black;
+    font-size: 1rem;
 }
 
 .skillBars {
     margin: 0.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -75,9 +76,8 @@
     align-items: center; /* Aligns items vertically in the center */
     justify-content: center; /* Centers the items horizontally */
     border-radius: 0.5rem;
-    padding: 10px 15px; /* Add padding inside the border */
+    padding: 8px 10px; /* Add padding inside the border */
     gap: 8px; /* Adds space between the image and the text */
-    background-color: none;
     border: 2px solid #846d62;
     transition: transform 0.3s ease;
 }
@@ -88,14 +88,13 @@
 }
 
 .skillBarImg {
-    height: 2rem;
-    width: 2rem;
+    height: 1.5rem;
+    width: 1.5rem;
     object-fit: contain;
 }
 
-.skillBarText {
+.skillBarText >h2 {
     font-size: 0.8rem;
-    font-weight: 200;
     display: flex; /* Makes .skillBarText a flex container */
     align-items: center;
 }

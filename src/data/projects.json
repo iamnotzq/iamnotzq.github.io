@@ -1,13 +1,38 @@
 [
+  {
+    "title": "Lagoon Laundry POS",
+    "imageSrc": [""],
+    "skillImg": "skills/react.png",
+    "subTitle": "POS system for a local laundry business.",
+    "description": "This is a project that i helped in designing the UI/UX of the POS system.",
+    "skills": ["React", "Expo", "MongoDB", "GraphQL", "Figma"],
+    "document": "projects/nutriwise/documentation.pdf",
+    "source": "https://github.com/iamnotzq/Blood-Glucose-Mobile-Application/tree/main",
+    "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
+    "date": "2024"
+  },
+  {
+    "title": "Portfolio Website",
+    "imageSrc": ["projects/portfolio/portfolio1.png","projects/portfolio/portfolio2.png","projects/portfolio/portfolio3.png"],
+    "skillImg": "skills/react.png",
+    "subTitle": "A personal portfolio website.",
+    "description": "This is my portfolio website that i did using React. It includes my skills, the works that i have done, my expereince and my education.",
+    "skills": ["React", "CSS", "Github"],
+    "document": "projects/portfolio/Lam Zhi Qiang Resume.pdf",
+    "source": "",
+    "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
+    "date": "2024"
+  },
     {
       "title": "NutriWise",
       "imageSrc": ["projects/nutriwise/nutri1.png","projects/nutriwise/nutri2.jpg","projects/nutriwise/nutri3.jpg","projects/nutriwise/nutri4.jpg","projects/nutriwise/nutri5.jpg","projects/nutriwise/nutri6.jpg","projects/nutriwise/nutri7.png","projects/nutriwise/nutri8.jpg","projects/nutriwise/nutri9.png","projects/nutriwise/nutri10.png"],
       "skillImg": "skills/react.png",
       "subTitle": "A mobile health application for diabetics.",
-      "description": "This is a project done for my FYP. It is a mobile application made for diabetics. It allows the user to log and track their food, medication and insulin intake. The application also give users recommendations based on their input. You can find out more in the short documentation.",
+      "description": "This is a project that i was leading for my FYP. It is a mobile application made for diabetics. It allows the user to log and track their food, medication and insulin intake. The application also give users recommendations based on their input. You can find out more about my contribution by clicking the documentation button.",
       "skills": ["React", "Expo", "MongoDB", "GraphQL", "Figma"],
       "document": "projects/nutriwise/documentation.pdf",
       "source": "https://github.com/iamnotzq/Blood-Glucose-Mobile-Application/tree/main",
+      "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
       "date": "2024"
     },
     {
@@ -21,13 +46,37 @@
       "source": "",
       "date": "2024"
     },{
-      "title": "Project C",
-      "imageSrc": ["projects/portfolio-1.png","projects/portfolio-5.png", "projects/portfolio-2.png"],
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "subTitle": "",
-      "skills": ["React", "Express", "Node"],
-      "document": "https://www.example.com",
-      "source": "https://www.github.com",
-      "date": "2018"
+      "title": "Bugger It!",
+      "imageSrc": ["projects/buggerit/bugger1.png","projects/buggerit/bugger2.png","projects/buggerit/bugger3.png","projects/buggerit/bugger4.png","projects/buggerit/bugger5.png","projects/buggerit/bugger6.png"],
+      "skillImg": "skills/php.png",
+      "subTitle": "A website for people to hire reliable tradies.",
+      "description": "This is a group project website that allow users to request for services and for local tradies to find job requests.",
+      "skills": ["PHP", "CSS"],
+      "document": "",
+      "source": "",
+      "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
+      "date": "2023"
+    },{
+      "title": "My Rent Buddy",
+      "imageSrc": ["projects/MyRentBuddy/rent1.png","projects/MyRentBuddy/rent2.png","projects/MyRentBuddy/rent3.png"],
+      "skillImg": "skills/php.png",
+      "subTitle": "A website for people to rent cars.",
+      "description": "This is a simple PHP website that allows users to rent cars. Our users will be able to view cars for rent, their rent history and current rents. Admins will be able to view a summary of cars rent history and current cars rented.",
+      "skills": ["PHP"],
+      "document": "",
+      "source": "",
+      "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
+      "date": "2023"
+    },{
+      "title": "Pet Heaven",
+      "imageSrc": ["projects/petHeaven/pet1.png","projects/petHeaven/pet2.png","projects/petHeaven/pet3.png","projects/petHeaven/pet4.png","projects/petHeaven/pet5.png","projects/petHeaven/pet6.png","projects/petHeaven/pet7.png","projects/petHeaven/pet8.png","projects/petHeaven/pet9.png","projects/petHeaven/pet10.png"],
+      "skillImg": "skills/php.png",
+      "subTitle": "A website for people to realease and adopt pets.",
+      "description": "This is a individual project website that allow users to release and adopt pets. Our users will be hit with our strong advertising messages upon landing on our page. They will be able to view the pet catalogue and choose to fill in an adoption or release form.",
+      "skills": ["React", "CSS"],
+      "document": "",
+      "source": "https://github.com/iamnotzq/PetHeaven",
+      "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
+      "date": "2023"
     }
   ]
