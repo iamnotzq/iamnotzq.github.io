@@ -30,7 +30,7 @@ const Works = () => {
                     return(
                       <div key={imgIndex} className='each-slide-effect'>
                         <div className='timelineImage'>
-                      <img src={getImageUrl(src)} alt={`${project.title} slide ${imgIndex + 1}`} className='timelineImage' />
+                      <img src={getImageUrl(src)} alt={`${project.title} slide ${imgIndex + 1}`} className='timelineImage'/>
                       </div>
                     </div>
                     );

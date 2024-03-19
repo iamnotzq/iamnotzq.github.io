@@ -92,36 +92,46 @@
   {
     "title": "Rhino 3D",
     "imageSrc": "skills/rhino.png",
-    "category": "Others"
+    "category": "3D Modelling/Rendering"
   },
   {
     "title": "Grasshopper",
     "imageSrc": "skills/Grasshopper.png",
-    "category": "Others"
+    "category": "3D Modelling/Rendering"
   },
   {
     "title": "Adobe Illustrator",
     "imageSrc": "skills/illustrator.png",
-    "category": "Others"
+    "category": "Graphic Design"
   },
   {
     "title": "Adobe Photoshop",
     "imageSrc": "skills/photoshop.png",
-    "category": "Others"
+    "category": "Graphic Design"
   },
   {
     "title": "Premiere Pro",
     "imageSrc": "skills/premierepro.png",
-    "category": "Others"
+    "category": "Video Editing"
   },
   {
     "title": "Keyshot",
     "imageSrc": "skills/keyshot.png",
-    "category": "Others"
+    "category": "3D Modelling/Rendering"
   },
   {
     "title": "3ds Max",
     "imageSrc": "skills/3dsmax.png",
-    "category": "Others"
+    "category": "3D Modelling/Rendering"
+  },
+  {
+    "title": "npm",
+    "imageSrc": "skills/npm.png",
+    "category": "Development Tools"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png",
+    "category": "Version Control"
   }
 ]
