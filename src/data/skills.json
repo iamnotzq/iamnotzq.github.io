@@ -123,15 +123,5 @@
     "title": "3ds Max",
     "imageSrc": "skills/3dsmax.png",
     "category": "3D Modelling/Rendering"
-  },
-  {
-    "title": "npm",
-    "imageSrc": "skills/npm.png",
-    "category": "Development Tools"
-  },
-  {
-    "title": "Git",
-    "imageSrc": "skills/git.png",
-    "category": "Version Control"
   }
 ]

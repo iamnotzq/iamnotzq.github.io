@@ -45,98 +45,76 @@
 }
 
 
-.introbox{
-    flex-basis: 50%; /* Adjust the width as needed */
-    text-align: left; /* Center text horizontally */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center content vertically */
-    padding: 20px; /* Add some padding */
-    align-items: center;
-}
-.introContent{
-    height: 50vh;
-    padding-right: 5rem;
-    font-size: clamp(1.5rem, 5vw, 3rem);
-    font-weight: 700;
+.introbox {
+    flex-basis: 100%; /* Use the full width available */
+    text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 20px; /* Increased padding for more space */
+    align-items: flex-start; /* Align text to the start */
+    padding-right: 100px;
+}
 
+.introContent {
+    font-size: clamp(1.5rem, 3vw, 3rem); /* Responsive font size using clamp */
+    font-weight: 700; /* Maintain the boldness */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px; /* Allow content to fill the container */
 }
 
 .hello {
-    font-size: 1.75rem;
-    font-weight: 100;
+    font-size: 1.75rem; /* Adjust the greeting font size for balance */
+    font-weight: 400; /* Make it slightly bolder for readability */
+    margin-bottom: 0.5rem; /* Add some space below the greeting */
 }
 
 .introName {
-    color: #65793C;
+    color: #65793C; /* Keep the original green color */
+    font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive font size using clamp */
+    font-weight: 900; /* Very bold for the name */
+    margin-bottom: 0.25rem; /* Reduce space below the name */
 }
 
 .introPara {
-    font-size: medium;
-    font-weight: 300;
-    letter-spacing: 1px;
-    max-width: 375px;
-}
-.btnBox{
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
-}
-.btn {
-    background: #846d62;
-    color: white;
-    margin: 0rem 0;
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 2rem;
-    font-family: 'Playfair Display', sans-serif;
+    font-size: clamp(1rem, 2.5vw, 1.25rem); /* Responsive font size using clamp */
+    font-weight: 300; /* Lighter font weight for the paragraph */
+    letter-spacing: normal; /* Default letter spacing */
+    max-width: 600px; /* Increased max-width for better readability */
+    margin-bottom: 2rem; /* Increase space before the button */
+    padding-top: 10px;
 }
 
-.btnImg {
-    object-fit: cover;
-    margin: 0 0.25rem;
-    height: 1rem;
-}
 
-/*adjust for the picture*/
 @media screen and (max-width:1000px){
     #intro {
-        flex-direction: column; /* Stack flex items vertically on smaller screens */
-        align-items: center; /* Center align the flex items */
+        flex-direction: column;
+        align-items: center;
     }
-    .slide-container, .introbox {
-        flex-basis: auto; /* Allow the items to size based on their content */
-        max-width: 100%; /* Use the full width */
-        margin-top: 20px; /* Add some space between the items */
+    .slide-container,
+    .introbox {
+        flex-basis: auto;
+        max-width: 100%;
+        margin-top: 20px;
+        padding: 20px;
     }
     .introContent{
-        position: relative; /* Adjust position to default flow or consider altering its design */
-        padding: 4vw;
-        height: auto;
+        position: relative; /* If you don't have absolutely positioned children, this might not be necessary */
+        padding: 4vw; /* Consider adding a max padding here, like max(20px, 4vw) */
+        height: auto; /* This is good, let the content define the height */
     }
     .hello{
-        font-size: 4.5vw;
+        font-size: max(16px, 4.5vw); /* Ensure the text doesn't become too small */
     }
-    .btnBox{
-        align-self: left;
+    /* If the text for .introName and .introPara is too large on smaller screens,
+       you might want to adjust them as well: */
+    .introName {
+        font-size: max(24px, 6vw); /* Use a minimum size for legibility */
     }
-    .btn{
-        padding: 1vw 2.5vw;
-        font-size: 2vw;
-        
-    }
-    .btnImg{
-        height: 3vw;
+    .introPara {
+        font-size: max(14px, 3.5vw);
     }
 }
-@media screen and (max-width:600px){
-    .btn{
-        padding: 0.75rem 1.5rem;
-        font-size: 1rem;
-    }
-    .btnImg{
-        height: 1rem;
-    }
-}
+

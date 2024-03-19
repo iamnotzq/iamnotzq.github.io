@@ -21,13 +21,8 @@ const Intro = () => {
           <span className='hello'>Hello,</span>
           <span className='introText'>I'm <span className="introName">Zhi Qiang</span><br/>Fresh Graduate</span>
           <p className='introPara'>
-            With a Bachelor's degree in Computer Science, specializing in Big Data. Passionate about machine learning and innovation through research, I work well in teams and persistently give my best effort. Eager to apply my knowledge and make a significant impact.
+            With a Bachelor's degree in Computer Science, specializing in Big Data. Passionate about machine learning and innovation through research, I work well in teams and persistently give my best effort, eager to apply my knowledge and make a significant impact.
           </p>
-          <Link to="contact" className='btnBox' smooth={true}>
-            <button className='btn' aria-label="Hire me">
-              <img src={btnImg} alt='Hire Me' className="btnImg"/>Hire Me
-            </button>
-          </Link>
         </div>
       </div>
       <div className='slide-container'>
