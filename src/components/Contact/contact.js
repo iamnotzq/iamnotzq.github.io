@@ -35,7 +35,7 @@ const Contact = () => {
                     <a href="mailto:lamzhiqiang98@gmail.com" target="_blank" rel="noopener noreferrer">
                         <img src={Gmail} alt='Gmail' className='link'/>
                     </a>
-                    <a href="https://www.linkedin.com/in/lam-zhi-qiang-314308106/" target="_blank" rel="noopener noreferrer">
+                    <a href="linkedin.com/in/lam-zhi-qiang" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedIn} alt='LinkedIn' className='link'/>
                     </a>
                 </div>
