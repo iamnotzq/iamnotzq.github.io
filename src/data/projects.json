@@ -9,7 +9,7 @@
     "document": "projects/nutriwise/documentation.pdf",
     "source": "https://github.com/iamnotzq/Blood-Glucose-Mobile-Application/tree/main",
     "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
-    "date": "2024"
+    "date": "2023"
   },
   {
     "title": "Portfolio Website",
@@ -47,7 +47,7 @@
       "date": "2024"
     },{
       "title": "Bugger It!",
-      "imageSrc": ["projects/buggerit/bugger1.png","projects/buggerit/bugger2.png","projects/buggerit/bugger3.png","projects/buggerit/bugger4.png","projects/buggerit/bugger5.png","projects/buggerit/bugger6.png"],
+      "imageSrc": ["projects/BuggerIt/bugger1.png","projects/BuggerIt/bugger2.png","projects/BuggerIt/bugger3.png","projects/BuggerIt/bugger4.png","projects/BuggerIt/bugger5.png","projects/BuggerIt/bugger6.png"],
       "skillImg": "skills/php.png",
       "subTitle": "A website for people to hire reliable tradies.",
       "description": "This is a group project website that allow users to request for services and for local tradies to find job requests.",
