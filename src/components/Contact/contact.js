@@ -1,9 +1,8 @@
 import React, {useRef} from 'react'
 import './contact.css';
-import Walmart from '../../assets/facebook.png';
-import Adobe from '../../assets/facebook.png';
-import Microsoft from '../../assets/facebook.png';
-import Facebook from '../../assets/facebook.png';
+import Github from '../../assets/github.png';
+import Gmail from '../../assets/gmail.png';
+import LinkedIn from '../../assets/linkedin.png';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -23,18 +22,24 @@ const Contact = () => {
   return (
     <section id='contact'>
             <h1 className='contactPageTitle'>Contact Me</h1>
-            <span className='contactDesc'>Please fill out the form</span>
+            <span className='contactDesc'>You can contact me through the methods below, otherwise you can fill up this form.</span>
             <form className='contactForm' ref={form} onSubmit={sendEmail}>
                 <input type='text' className='name' placeholder='Your Name' name='your_name'/>
                 <input type='email' className='email' placeholder='Your Email' name='your_email'/>
                 <textarea className='msg' rows='5' name='message' placeholder='Your Message'/>
                 <button className='submitBtn' type='submit' value='Send'>Submit</button>
                 <div className='links'>
-                    <img src={Facebook} alt='Facebook' className='link'/>
-                    <img src={Facebook} alt='Facebook' className='link'/>
-                    <img src={Facebook} alt='Facebook' className='link'/>
-                    <img src={Facebook} alt='Facebook' className='link'/>
+                    <a href="https://github.com/iamnotzq" target="_blank" rel="noopener noreferrer">
+                        <img src={Github} alt='Github' className='link'/>
+                    </a>
+                    <a href="mailto:lamzhiqiang98@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <img src={Gmail} alt='Gmail' className='link'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/lam-zhi-qiang-314308106/" target="_blank" rel="noopener noreferrer">
+                        <img src={LinkedIn} alt='LinkedIn' className='link'/>
+                    </a>
                 </div>
+
             </form>
     </section>
   )

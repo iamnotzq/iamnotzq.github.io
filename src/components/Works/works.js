@@ -52,6 +52,7 @@ const Works = () => {
                     {project.document && <a href={getImageUrl(project.document)} target="_blank" rel="noopener noreferrer">Documentation</a>}
                     {project.drive && <a href={project.drive} target="_blank" rel="noopener noreferrer">Google Drive</a>}
                     {project.source && <a href={project.source} target="_blank" rel="noopener noreferrer">Source Code</a>}
+                    {project.website && <a href={project.website} target="_blank" rel="noopener noreferrer">Website</a>}
                   </div>
                 </div>
               </div>

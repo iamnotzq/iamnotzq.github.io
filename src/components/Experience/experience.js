@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <section id = 'experience'>
         <h2 className='experienceTitle'>My Experience</h2>
-        <span className='experienceDesc'>This is my portfolio and my works details</span>
+        <span className='experienceDesc'>This is my working experience.</span>
         <VerticalTimeline layout='1-column-right' lineColor='#846d62'>
           {projects.map((project, index) => (
             <VerticalTimelineElement

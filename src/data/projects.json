@@ -1,15 +1,15 @@
 [
   {
     "title": "Lagoon Laundry POS",
-    "imageSrc": [""],
+    "imageSrc": ["WIP.jpg"],
     "skillImg": "skills/react.png",
     "subTitle": "POS system for a local laundry business.",
-    "description": "This is a project that i helped in designing the UI/UX of the POS system.",
-    "skills": ["React", "Expo", "MongoDB", "GraphQL", "Figma"],
-    "document": "projects/nutriwise/documentation.pdf",
-    "source": "https://github.com/iamnotzq/Blood-Glucose-Mobile-Application/tree/main",
-    "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
-    "date": "2024"
+    "description": "This is a project that i am helping with designing the UI/UX of the POS system.",
+    "skills": [],
+    "document": "",
+    "source": "",
+    "drive": "",
+    "date": "2024 - ongoing"
   },
   {
     "title": "Portfolio Website",
@@ -19,8 +19,9 @@
     "description": "This is my portfolio website that i did using React. It includes my skills, the works that i have done, my expereince and my education.",
     "skills": ["React", "CSS", "Github"],
     "document": "projects/portfolio/Lam Zhi Qiang Resume.pdf",
-    "source": "",
-    "drive": "https://drive.google.com/drive/folders/1qVdahzMV1m-rN6qjeYXviNknV7Wr-uRX?usp=drive_link",
+    "source": "https://github.com/iamnotzq/iamnotzq.github.io",
+    "drive": "",
+    "website": "https://iamnotzq.github.io/",
     "date": "2024"
   },
     {
@@ -51,7 +52,7 @@
       "skillImg": "skills/php.png",
       "subTitle": "A website for people to hire reliable tradies.",
       "description": "This is a group project website that allow users to request for services and for local tradies to find job requests.",
-      "skills": ["PHP", "CSS"],
+      "skills": ["PHP", "CSS", "mySQL"],
       "document": "",
       "source": "",
       "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
@@ -60,9 +61,9 @@
       "title": "My Rent Buddy",
       "imageSrc": ["projects/MyRentBuddy/rent1.png","projects/MyRentBuddy/rent2.png","projects/MyRentBuddy/rent3.png"],
       "skillImg": "skills/php.png",
-      "subTitle": "A website for people to rent cars.",
+      "subTitle": "A page for people to rent cars.",
       "description": "This is a simple PHP website that allows users to rent cars. Our users will be able to view cars for rent, their rent history and current rents. Admins will be able to view a summary of cars rent history and current cars rented.",
-      "skills": ["PHP"],
+      "skills": ["PHP", "mySQL"],
       "document": "",
       "source": "",
       "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
@@ -76,7 +77,20 @@
       "skills": ["React", "CSS"],
       "document": "",
       "source": "https://github.com/iamnotzq/PetHeaven",
-      "drive": "https://drive.google.com/drive/folders/1yj-_KnCVqil3vhVnuh2wCjhP6BD8_ytR?usp=sharing",
+      "drive": "",
+      "website": "https://iamnotzq.github.io/PetHeaven",
+      "date": "2023"
+    },{
+      "title": "AZoom Car Rental",
+      "imageSrc": ["projects/AZoom/azoom1.png","projects/AZoom/azoom2.png","projects/AZoom/azoom3.png","projects/AZoom/azoom4.png","projects/AZoom/azoom5.png","projects/AZoom/azoom6.png","projects/AZoom/azoom7.png","projects/AZoom/azoom8.png","projects/AZoom/azoom9.png"],
+      "skillImg": "skills/react.png",
+      "subTitle": "A website for people to rent cars.",
+      "description": "This is a individual project website that allow users rent cars. Our users will be able to view available cars and rent them for a duration of time.",
+      "skills": ["React", "CSS"],
+      "document": "",
+      "source": "https://github.com/iamnotzq/AZoom-Car-Rental",
+      "drive": "",
+      "website": "https://iamnotzq.github.io/AZoom-Car-Rental/",
       "date": "2023"
     }
   ]
