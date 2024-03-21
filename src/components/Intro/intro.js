@@ -1,18 +1,20 @@
+// Import necessary React hooks and components
 import React, { useEffect, useState } from 'react';
-import './intro.css';
-import btnImg from '../../assets/hireme.png';
-import { Link } from 'react-scroll';
-import 'react-slideshow-image/dist/styles.css';
-import { Slide } from 'react-slideshow-image';
-import projects from "../../data/projects.json";
-import { getImageUrl, shuffleArray } from "../../utils";
+import './intro.css'; // Importing custom styles
+import btnImg from '../../assets/hireme.png'; // Importing button image
+import { Link } from 'react-scroll'; // Importing Link component for smooth scrolling
+import 'react-slideshow-image/dist/styles.css'; // Importing default styles for the slideshow
+import { Slide } from 'react-slideshow-image'; // Importing Slide component for the slideshow
+import projects from "../../data/projects.json"; // Importing projects data
+import { getImageUrl, shuffleArray } from "../../utils"; // Importing utility functions
 
 const Intro = () => {
-  const [shuffledImages, setShuffledImages] = useState([]);
+  const [shuffledImages, setShuffledImages] = useState([]); // State to hold shuffled images for the slideshow
 
   useEffect(() => {
+    // Shuffling project images on component mount and setting them to state
     setShuffledImages(shuffleArray(projects.flatMap(project => project.imageSrc)));
-  }, []); // Empty dependency array to run once on mount
+  }, []); // Dependency array is empty to ensure this effect runs only once on mount
 
   return (
     <section id="intro">
@@ -38,4 +40,5 @@ const Intro = () => {
   );
 };
 
-export default Intro;
+export default Intro; // Exporting the Intro component
+

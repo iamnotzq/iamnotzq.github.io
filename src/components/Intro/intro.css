@@ -92,6 +92,7 @@
     #intro {
         flex-direction: column;
         align-items: center;
+        display: initial;
     }
     .slide-container,
     .introbox {
