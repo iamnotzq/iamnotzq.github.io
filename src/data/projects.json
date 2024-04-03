@@ -1,7 +1,7 @@
 [
   {
     "title": "Lagoon Laundry POS",
-    "imageSrc": ["WIP.jpg"],
+    "imageSrc": ["projects/lagoon/lagoon1.jpg"],
     "skillImg": "skills/react.png",
     "subTitle": "POS system for a local laundry business.",
     "description": "This is a project that i am helping with designing the UI/UX of the POS system.",
