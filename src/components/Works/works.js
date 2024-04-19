@@ -44,7 +44,11 @@ const Works = () => {
                   </div>
                   <h3 className="vertical-timeline-element-title">{project.title}</h3> 
                   <h4 className="vertical-timeline-element-subtitle">{project.subTitle}</h4> 
-                  <p>{project.description}</p> 
+                  {project.description.split('. ').map((sentence, index, array)=>(
+                    <p>
+                      {sentence}{index < array.length-1 ? '.':''}
+                    </p> 
+                  ))}
                   <div className='buttonBox'> 
                     {project.document && <a href={getImageUrl(project.document)} target="_blank" rel="noopener noreferrer">Documentation</a>}
                     {project.drive && <a href={project.drive} target="_blank" rel="noopener noreferrer">Google Drive</a>}

@@ -4,7 +4,9 @@ import './contact.css'; // Custom CSS for styling the contact component
 import Github from '../../assets/github.png'; // GitHub icon
 import Gmail from '../../assets/gmail.png'; // Gmail icon
 import LinkedIn from '../../assets/linkedin.png'; // LinkedIn icon
+import Portfolio from '../../assets/portfolio.png'; // LinkedIn icon
 import emailjs from '@emailjs/browser'; // Importing emailjs for handling email sending
+import PortfolioPDF from '../../assets/Lam Zhi Qiang Resume.pdf';
 
 const Contact = () => {
     const form = useRef(); // Using useRef to reference the form element for email submission
@@ -42,6 +44,9 @@ const Contact = () => {
                     </a>
                     <a href="https://linkedin.com/in/lam-zhi-qiang" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedIn} alt='LinkedIn' className='link'/> 
+                    </a>
+                    <a href={PortfolioPDF} target="_blank" rel="noopener noreferrer">
+                        <img src={Portfolio} alt='Portfolio' className='link'/> 
                     </a>
                 </div>
             </form>
