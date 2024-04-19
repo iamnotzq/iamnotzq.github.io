@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.299e473a.css",
-    "main.js": "/static/js/main.f8b36815.js",
+    "main.js": "/static/js/main.bb03fec7.js",
+    "static/media/Lam Zhi Qiang Resume.pdf": "/static/media/Lam Zhi Qiang Resume.a5241e5a1dd6e7e2afcc.pdf",
     "static/media/logo.png": "/static/media/logo.2be6f582c5eac4ddf990.png",
     "static/media/contact.png": "/static/media/contact.eb56658862db70c33c9b.png",
     "static/media/github.png": "/static/media/github.05f6c17b8cd04c28456f.png",
     "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/index.html",
     "main.299e473a.css.map": "/static/css/main.299e473a.css.map",
-    "main.f8b36815.js.map": "/static/js/main.f8b36815.js.map"
+    "main.bb03fec7.js.map": "/static/js/main.bb03fec7.js.map"
   },
   "entrypoints": [
     "static/css/main.299e473a.css",
-    "static/js/main.f8b36815.js"
+    "static/js/main.bb03fec7.js"
   ]
 }
